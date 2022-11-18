@@ -1,0 +1,10 @@
+h1 {
+  color: rgb(27, 0, 52);
+  font-family: cursive;
+}
+
+#renderCanvas {
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
