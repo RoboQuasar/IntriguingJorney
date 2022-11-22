@@ -12,6 +12,8 @@
     "parcel": "^2.8.0"
   },
   "dependencies": {
-    "babylonjs": "^5.33.1"
+    "babylonjs": "^5.33.1",
+    "babylonjs-gui": "^5.33.1",
+    "babylonjs-materials": "^5.33.1"
   }
 }
