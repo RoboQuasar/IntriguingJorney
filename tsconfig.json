@@ -2,6 +2,13 @@
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules/*", "dist/*"],
   "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    // "skipLibCheck": true,
+    // "resolveJsonModule": true,
+    // "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "isolatedModules": false,
     "allowJs": true,
     "types": [
