@@ -1,4 +1,3 @@
-// const canvas = document.getElementById("renderCanvas") as HTMLCanvasElement; // Get the canvas element
 import { App } from './App';
 
 console.log(`index.ts starting ${App.name}`);

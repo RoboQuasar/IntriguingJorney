@@ -1,3 +1,6 @@
+// required imports
+import "babylonjs-loaders";
+
 export class Playground {
   public static CreateScene(engine: BABYLON.Engine, canvas: HTMLCanvasElement): BABYLON.Scene {
       // This creates a basic Babylon Scene object (non-mesh)
@@ -30,7 +33,7 @@ export class Playground {
       
       ground.material = groundMaterial;
 
-      const yetiMesh = BABYLON.SceneLoader.ImportMesh(
+      BABYLON.SceneLoader.ImportMesh(
         "",
         "https://assets.babylonjs.com/meshes/Yeti/MayaExport/glTF/",
         "Yeti.gltf",
