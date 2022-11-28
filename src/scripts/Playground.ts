@@ -44,6 +44,16 @@ export class Playground {
         },
       );
 
+      const box = BABYLON.MeshBuilder.CreateBox("box", {}, scene);
+      box.position.x = 3;
+      box.position.y = 4;
+      box.position.z = -1;
+
+      const box2 = BABYLON.MeshBuilder.CreateBox("box", {}, scene);
+      box2.position.x = -3;
+      box2.position.y = 4;
+      box2.position.z = -1;
+
       return scene;
   }
 }

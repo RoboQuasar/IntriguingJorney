@@ -19,6 +19,7 @@
     "@babylonjs/serializers": "^5.34.0",
     "babylonjs-gui": "^5.34.0",
     "babylonjs-loaders": "^5.34.0",
-    "babylonjs-materials": "^5.34.0"
+    "babylonjs-materials": "^5.34.0",
+    "babylonjs-viewer": "^5.34.0"
   }
 }

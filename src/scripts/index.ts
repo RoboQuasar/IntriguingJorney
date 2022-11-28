@@ -1,3 +1,4 @@
+import "babylonjs-viewer";
 import { App } from './App';
 
 console.log(`index.ts starting ${App.name}`);
