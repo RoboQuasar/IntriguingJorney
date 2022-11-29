@@ -1,4 +1,5 @@
 import { Playground } from './Playground';
+import { HousesPlayground } from './houses';
 
 export class App {
     engine: BABYLON.Engine;
@@ -10,7 +11,11 @@ export class App {
         window.addEventListener('resize', () => {
             this.engine.resize();
         });
-        this.scene = Playground.CreateScene(this.engine, this.engine.getRenderingCanvas()); // createScene(this.engine, this.canvas)
+        if (window.location.href.includes('houses')) {
+            this.scene = HousesPlayground.CreateScene(this.engine, this.engine.getRenderingCanvas());
+        } else {
+            this.scene = Playground.CreateScene(this.engine, this.engine.getRenderingCanvas());
+        }
     }
 
     debug(debugOn: boolean = true) {

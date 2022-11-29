@@ -1,9 +1,9 @@
 {
   "name": "intriguingjorney",
-  "source": "src/index.html",
+  "source": "src/index.html src/houses.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel src/index.html src/houses.html --no-cache",
     "build": "parcel build",
     "check": "tsc --noEmit"
   },
